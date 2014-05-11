@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58CD4BE191C349E00FAAC88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4BD191C349E00FAAC88 /* UIKit.framework */; };
+		F58CD4C0191C349E00FAAC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4BF191C349E00FAAC88 /* Foundation.framework */; };
+		F58CD4C2191C349E00FAAC88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4C1191C349E00FAAC88 /* CoreGraphics.framework */; };
+		F58CD4C8191C349E00FAAC88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58CD4C6191C349E00FAAC88 /* InfoPlist.strings */; };
+		F58CD4CA191C349E00FAAC88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58CD4C9191C349E00FAAC88 /* main.m */; };
+		F58CD4CE191C349E00FAAC88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58CD4CD191C349E00FAAC88 /* AppDelegate.m */; };
+		F58CD4D0191C349E00FAAC88 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F58CD4CF191C349E00FAAC88 /* Default.png */; };
+		F58CD4D2191C349E00FAAC88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F58CD4D1191C349E00FAAC88 /* Default@2x.png */; };
+		F58CD4D4191C349E00FAAC88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F58CD4D3191C349E00FAAC88 /* Default-568h@2x.png */; };
+		F58CD4DC191C349E00FAAC88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4DB191C349E00FAAC88 /* SenTestingKit.framework */; };
+		F58CD4DD191C349E00FAAC88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4BD191C349E00FAAC88 /* UIKit.framework */; };
+		F58CD4DE191C349E00FAAC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58CD4BF191C349E00FAAC88 /* Foundation.framework */; };
+		F58CD4E6191C349E00FAAC88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58CD4E4191C349E00FAAC88 /* InfoPlist.strings */; };
+		F58CD4E9191C349E00FAAC88 /* Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58CD4E8191C349E00FAAC88 /* Test1Tests.m */; };
+		F5A927B7191EBD0000CFFEC9 /* LDHNoteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A927B6191EBD0000CFFEC9 /* LDHNoteDatabase.m */; };
+		F5AC7414191ED39B00DBAD70 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC7413191ED39B00DBAD70 /* MessageUI.framework */; };
+		F5AD2555191E18DA00C0E1CF /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = F5AD2554191E18DA00C0E1CF /* paper.png */; };
+		F5AD2559191E19A000C0E1CF /* paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5AD2558191E19A000C0E1CF /* paper@2x.png */; };
+		F5AD255F191E997700C0E1CF /* LDHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD255D191E997700C0E1CF /* LDHPhotoViewController.m */; };
+		F5AD2560191E997700C0E1CF /* LDHPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AD255E191E997700C0E1CF /* LDHPhotoViewController.xib */; };
+		F5B66AB9191D648100D9AD90 /* LDHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B66AB7191D648100D9AD90 /* LDHMainViewController.m */; };
+		F5B66ABA191D648100D9AD90 /* LDHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B66AB8191D648100D9AD90 /* LDHMainViewController.xib */; };
+		F5B66ABE191D64EB00D9AD90 /* LDHNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B66ABC191D64EB00D9AD90 /* LDHNoteViewController.m */; };
+		F5B66ABF191D64EB00D9AD90 /* LDHNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B66ABD191D64EB00D9AD90 /* LDHNoteViewController.xib */; };
+		F5B66AC4191D76C400D9AD90 /* LDHNoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B66AC3191D76C400D9AD90 /* LDHNoteData.m */; };
+		F5B66AC7191D77A400D9AD90 /* LDHNoteDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B66AC6191D77A400D9AD90 /* LDHNoteDoc.m */; };
+		F5B6D31F191D8E0000BD387B /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B6D31D191D8E0000BD387B /* RWTUIImageExtras.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F58CD4DF191C349E00FAAC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58CD4B2191C349E00FAAC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58CD4B9191C349E00FAAC88;
+			remoteInfo = Test1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58CD4BA191C349E00FAAC88 /* Knowtes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knowtes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58CD4BD191C349E00FAAC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F58CD4BF191C349E00FAAC88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F58CD4C1191C349E00FAAC88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F58CD4C5191C349E00FAAC88 /* Knowtes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knowtes-Info.plist"; sourceTree = "<group>"; };
+		F58CD4C7191C349E00FAAC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F58CD4C9191C349E00FAAC88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58CD4CB191C349E00FAAC88 /* Knowtes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knowtes-Prefix.pch"; sourceTree = "<group>"; };
+		F58CD4CC191C349E00FAAC88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F58CD4CD191C349E00FAAC88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F58CD4CF191C349E00FAAC88 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F58CD4D1191C349E00FAAC88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F58CD4D3191C349E00FAAC88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F58CD4DA191C349E00FAAC88 /* KnowtesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowtesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58CD4DB191C349E00FAAC88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F58CD4E3191C349E00FAAC88 /* KnowtesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowtesTests-Info.plist"; sourceTree = "<group>"; };
+		F58CD4E5191C349E00FAAC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F58CD4E7191C349E00FAAC88 /* Test1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1Tests.h; sourceTree = "<group>"; };
+		F58CD4E8191C349E00FAAC88 /* Test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1Tests.m; sourceTree = "<group>"; };
+		F5A927B5191EBD0000CFFEC9 /* LDHNoteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHNoteDatabase.h; sourceTree = "<group>"; };
+		F5A927B6191EBD0000CFFEC9 /* LDHNoteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHNoteDatabase.m; sourceTree = "<group>"; };
+		F5AC7413191ED39B00DBAD70 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F5AD2554191E18DA00C0E1CF /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		F5AD2558191E19A000C0E1CF /* paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@2x.png"; sourceTree = "<group>"; };
+		F5AD255C191E997700C0E1CF /* LDHPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHPhotoViewController.h; path = Test1/Test1/LDHPhotoViewController.h; sourceTree = "<group>"; };
+		F5AD255D191E997700C0E1CF /* LDHPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHPhotoViewController.m; path = Test1/Test1/LDHPhotoViewController.m; sourceTree = "<group>"; };
+		F5AD255E191E997700C0E1CF /* LDHPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LDHPhotoViewController.xib; path = Test1/Test1/LDHPhotoViewController.xib; sourceTree = "<group>"; };
+		F5B66AB6191D648100D9AD90 /* LDHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHMainViewController.h; sourceTree = "<group>"; };
+		F5B66AB7191D648100D9AD90 /* LDHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHMainViewController.m; sourceTree = "<group>"; };
+		F5B66AB8191D648100D9AD90 /* LDHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDHMainViewController.xib; sourceTree = "<group>"; };
+		F5B66ABB191D64EB00D9AD90 /* LDHNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHNoteViewController.h; sourceTree = "<group>"; };
+		F5B66ABC191D64EB00D9AD90 /* LDHNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHNoteViewController.m; sourceTree = "<group>"; };
+		F5B66ABD191D64EB00D9AD90 /* LDHNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDHNoteViewController.xib; sourceTree = "<group>"; };
+		F5B66AC2191D76C400D9AD90 /* LDHNoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHNoteData.h; sourceTree = "<group>"; };
+		F5B66AC3191D76C400D9AD90 /* LDHNoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHNoteData.m; sourceTree = "<group>"; };
+		F5B66AC5191D77A400D9AD90 /* LDHNoteDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHNoteDoc.h; sourceTree = "<group>"; };
+		F5B66AC6191D77A400D9AD90 /* LDHNoteDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHNoteDoc.m; sourceTree = "<group>"; };
+		F5B6D31D191D8E0000BD387B /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		F5B6D31E191D8E0000BD387B /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58CD4B7191C349E00FAAC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC7414191ED39B00DBAD70 /* MessageUI.framework in Frameworks */,
+				F58CD4BE191C349E00FAAC88 /* UIKit.framework in Frameworks */,
+				F58CD4C0191C349E00FAAC88 /* Foundation.framework in Frameworks */,
+				F58CD4C2191C349E00FAAC88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58CD4D6191C349E00FAAC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CD4DC191C349E00FAAC88 /* SenTestingKit.framework in Frameworks */,
+				F58CD4DD191C349E00FAAC88 /* UIKit.framework in Frameworks */,
+				F58CD4DE191C349E00FAAC88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58CD4B1191C349E00FAAC88 = {
+			isa = PBXGroup;
+			children = (
+				F5AC7413191ED39B00DBAD70 /* MessageUI.framework */,
+				F58CD4C3191C349E00FAAC88 /* Knowtes */,
+				F58CD4E1191C349E00FAAC88 /* KnowtesTests */,
+				F58CD4BC191C349E00FAAC88 /* Frameworks */,
+				F58CD4BB191C349E00FAAC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58CD4BB191C349E00FAAC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4BA191C349E00FAAC88 /* Knowtes.app */,
+				F58CD4DA191C349E00FAAC88 /* KnowtesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58CD4BC191C349E00FAAC88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4BD191C349E00FAAC88 /* UIKit.framework */,
+				F58CD4BF191C349E00FAAC88 /* Foundation.framework */,
+				F58CD4C1191C349E00FAAC88 /* CoreGraphics.framework */,
+				F58CD4DB191C349E00FAAC88 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F58CD4C3191C349E00FAAC88 /* Knowtes */ = {
+			isa = PBXGroup;
+			children = (
+				F5B6D31C191D8DC200BD387B /* Helpers */,
+				F5B6D31B191D8DB700BD387B /* Art */,
+				F5B6D31A191D8DB100BD387B /* Views */,
+				F5B66AC1191D768000D9AD90 /* Model */,
+				F5B66AC0191D765F00D9AD90 /* GUI */,
+				F58CD4C4191C349E00FAAC88 /* Supporting Files */,
+			);
+			path = Knowtes;
+			sourceTree = "<group>";
+		};
+		F58CD4C4191C349E00FAAC88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4C5191C349E00FAAC88 /* Knowtes-Info.plist */,
+				F58CD4C6191C349E00FAAC88 /* InfoPlist.strings */,
+				F58CD4C9191C349E00FAAC88 /* main.m */,
+				F58CD4CB191C349E00FAAC88 /* Knowtes-Prefix.pch */,
+				F58CD4CF191C349E00FAAC88 /* Default.png */,
+				F58CD4D1191C349E00FAAC88 /* Default@2x.png */,
+				F58CD4D3191C349E00FAAC88 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F58CD4E1191C349E00FAAC88 /* KnowtesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4E7191C349E00FAAC88 /* Test1Tests.h */,
+				F58CD4E8191C349E00FAAC88 /* Test1Tests.m */,
+				F58CD4E2191C349E00FAAC88 /* Supporting Files */,
+			);
+			path = KnowtesTests;
+			sourceTree = "<group>";
+		};
+		F58CD4E2191C349E00FAAC88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4E3191C349E00FAAC88 /* KnowtesTests-Info.plist */,
+				F58CD4E4191C349E00FAAC88 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B66AC0191D765F00D9AD90 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				F58CD4CC191C349E00FAAC88 /* AppDelegate.h */,
+				F58CD4CD191C349E00FAAC88 /* AppDelegate.m */,
+				F5B66AB6191D648100D9AD90 /* LDHMainViewController.h */,
+				F5B66AB7191D648100D9AD90 /* LDHMainViewController.m */,
+				F5B66AB8191D648100D9AD90 /* LDHMainViewController.xib */,
+				F5B66ABB191D64EB00D9AD90 /* LDHNoteViewController.h */,
+				F5B66ABC191D64EB00D9AD90 /* LDHNoteViewController.m */,
+				F5B66ABD191D64EB00D9AD90 /* LDHNoteViewController.xib */,
+				F5AD255C191E997700C0E1CF /* LDHPhotoViewController.h */,
+				F5AD255D191E997700C0E1CF /* LDHPhotoViewController.m */,
+				F5AD255E191E997700C0E1CF /* LDHPhotoViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		F5B66AC1191D768000D9AD90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66AC2191D76C400D9AD90 /* LDHNoteData.h */,
+				F5B66AC3191D76C400D9AD90 /* LDHNoteData.m */,
+				F5B66AC5191D77A400D9AD90 /* LDHNoteDoc.h */,
+				F5B66AC6191D77A400D9AD90 /* LDHNoteDoc.m */,
+				F5A927B5191EBD0000CFFEC9 /* LDHNoteDatabase.h */,
+				F5A927B6191EBD0000CFFEC9 /* LDHNoteDatabase.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F5B6D31A191D8DB100BD387B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F5B6D31B191D8DB700BD387B /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				F5AD2558191E19A000C0E1CF /* paper@2x.png */,
+				F5AD2554191E18DA00C0E1CF /* paper.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		F5B6D31C191D8DC200BD387B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5B6D31D191D8E0000BD387B /* RWTUIImageExtras.m */,
+				F5B6D31E191D8E0000BD387B /* RWTUIImageExtras.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58CD4B9191C349E00FAAC88 /* Knowtes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58CD4EC191C349E00FAAC88 /* Build configuration list for PBXNativeTarget "Knowtes" */;
+			buildPhases = (
+				F58CD4B6191C349E00FAAC88 /* Sources */,
+				F58CD4B7191C349E00FAAC88 /* Frameworks */,
+				F58CD4B8191C349E00FAAC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knowtes;
+			productName = Test1;
+			productReference = F58CD4BA191C349E00FAAC88 /* Knowtes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F58CD4D9191C349E00FAAC88 /* KnowtesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58CD4EF191C349E00FAAC88 /* Build configuration list for PBXNativeTarget "KnowtesTests" */;
+			buildPhases = (
+				F58CD4D5191C349E00FAAC88 /* Sources */,
+				F58CD4D6191C349E00FAAC88 /* Frameworks */,
+				F58CD4D7191C349E00FAAC88 /* Resources */,
+				F58CD4D8191C349E00FAAC88 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58CD4E0191C349E00FAAC88 /* PBXTargetDependency */,
+			);
+			name = KnowtesTests;
+			productName = Test1Tests;
+			productReference = F58CD4DA191C349E00FAAC88 /* KnowtesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58CD4B2191C349E00FAAC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lucy He";
+			};
+			buildConfigurationList = F58CD4B5191C349E00FAAC88 /* Build configuration list for PBXProject "Knowtes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F58CD4B1191C349E00FAAC88;
+			productRefGroup = F58CD4BB191C349E00FAAC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58CD4B9191C349E00FAAC88 /* Knowtes */,
+				F58CD4D9191C349E00FAAC88 /* KnowtesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58CD4B8191C349E00FAAC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CD4C8191C349E00FAAC88 /* InfoPlist.strings in Resources */,
+				F58CD4D0191C349E00FAAC88 /* Default.png in Resources */,
+				F58CD4D2191C349E00FAAC88 /* Default@2x.png in Resources */,
+				F58CD4D4191C349E00FAAC88 /* Default-568h@2x.png in Resources */,
+				F5B66ABA191D648100D9AD90 /* LDHMainViewController.xib in Resources */,
+				F5B66ABF191D64EB00D9AD90 /* LDHNoteViewController.xib in Resources */,
+				F5AD2555191E18DA00C0E1CF /* paper.png in Resources */,
+				F5AD2559191E19A000C0E1CF /* paper@2x.png in Resources */,
+				F5AD2560191E997700C0E1CF /* LDHPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58CD4D7191C349E00FAAC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CD4E6191C349E00FAAC88 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F58CD4D8191C349E00FAAC88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58CD4B6191C349E00FAAC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CD4CA191C349E00FAAC88 /* main.m in Sources */,
+				F58CD4CE191C349E00FAAC88 /* AppDelegate.m in Sources */,
+				F5B66AB9191D648100D9AD90 /* LDHMainViewController.m in Sources */,
+				F5B66ABE191D64EB00D9AD90 /* LDHNoteViewController.m in Sources */,
+				F5B66AC4191D76C400D9AD90 /* LDHNoteData.m in Sources */,
+				F5B66AC7191D77A400D9AD90 /* LDHNoteDoc.m in Sources */,
+				F5B6D31F191D8E0000BD387B /* RWTUIImageExtras.m in Sources */,
+				F5AD255F191E997700C0E1CF /* LDHPhotoViewController.m in Sources */,
+				F5A927B7191EBD0000CFFEC9 /* LDHNoteDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58CD4D5191C349E00FAAC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CD4E9191C349E00FAAC88 /* Test1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F58CD4E0191C349E00FAAC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58CD4B9191C349E00FAAC88 /* Knowtes */;
+			targetProxy = F58CD4DF191C349E00FAAC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58CD4C6191C349E00FAAC88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58CD4C7191C349E00FAAC88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F58CD4E4191C349E00FAAC88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58CD4E5191C349E00FAAC88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58CD4EA191C349E00FAAC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58CD4EB191C349E00FAAC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58CD4ED191C349E00FAAC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knowtes/Knowtes-Prefix.pch";
+				INFOPLIST_FILE = "Knowtes/Knowtes-Info.plist";
+				PRODUCT_NAME = Knowtes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F58CD4EE191C349E00FAAC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knowtes/Knowtes-Prefix.pch";
+				INFOPLIST_FILE = "Knowtes/Knowtes-Info.plist";
+				PRODUCT_NAME = Knowtes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F58CD4F0191C349E00FAAC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test1.app/Test1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test1/Test1-Prefix.pch";
+				INFOPLIST_FILE = "Test1Tests/KnowtesTests-Info.plist";
+				PRODUCT_NAME = KnowtesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F58CD4F1191C349E00FAAC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test1.app/Test1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test1/Test1-Prefix.pch";
+				INFOPLIST_FILE = "Test1Tests/KnowtesTests-Info.plist";
+				PRODUCT_NAME = KnowtesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58CD4B5191C349E00FAAC88 /* Build configuration list for PBXProject "Knowtes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58CD4EA191C349E00FAAC88 /* Debug */,
+				F58CD4EB191C349E00FAAC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58CD4EC191C349E00FAAC88 /* Build configuration list for PBXNativeTarget "Knowtes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58CD4ED191C349E00FAAC88 /* Debug */,
+				F58CD4EE191C349E00FAAC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58CD4EF191C349E00FAAC88 /* Build configuration list for PBXNativeTarget "KnowtesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58CD4F0191C349E00FAAC88 /* Debug */,
+				F58CD4F1191C349E00FAAC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58CD4B2191C349E00FAAC88 /* Project object */;
+}
